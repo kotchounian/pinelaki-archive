@@ -27,12 +27,20 @@ Each `.md` file includes:
 
 ## Key Content Summary
 
-| Section | URLs found |
+| Section | URLs/Files found |
 |---------|-----------|
-| Services | Auto Body Repair, Headlight Restoration, Collision Repair, Custom Painting |
-| Products | Touch-Up Paint, Clear Coat Varnish, Spray Paint, 1K/2K Clear Coat |
+| Services | Auto Body Repair, Headlight Restoration, Collision Repair |
+| Products | Touch-Up Paint, Clear Coat Varnish, Spray Paint, 1K/2K Clear |
 | Blog | 20+ articles (Paint Code locations, how-to guides) |
-| Contact | +357 99228438 · info@pinelaki.com · Mesokeleos 15, Pallouriotissa, Nicosia |
+| Media | 114 unique images locally archived |
+| Contact | +357 99228438 · info@pinelaki.com · Mesokeleos 15, Nicosia |
+
+## Media Archive
+
+All media (images) from the old website have been archived to overcome live-site scraping protections.
+
+- **`media/`**: Contains the physical image files downloaded from `pinelaki.com/wp-content/uploads/`
+- **`media-map.json`**: A mapping file that links each page URL to the local, downloaded image files used on that page. Useful for programmatic rebuilding.
 
 ## Business Details Extracted
 
